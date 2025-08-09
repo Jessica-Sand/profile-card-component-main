@@ -1,0 +1,28 @@
+:root {
+    /** Colors **/
+    --blue-600: hsl(185, 75%, 39%);
+    --navy-950: hsl(229, 23%, 23%);
+    --gray-500: hsl(227, 10%, 46%);
+    --gray-100: hsl(225, 10%, 92%);
+
+    /** Font **/
+    --font: "Kumbh Sans", sans-serif;
+}
+
+/** General **/
+body {
+    background-color: var(--blue-600);
+}
+
+/** Images **/
+.bg-img {
+    position: absolute;
+}
+.top {
+    top: -32em;
+    left: -17em;
+}
+.bottom {
+    bottom: -39em;
+    right: -14em;
+}
