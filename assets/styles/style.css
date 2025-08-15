@@ -12,11 +12,13 @@
 /** General **/
 body {
     background-color: var(--blue-600);
+    font-family: var(--font);
 }
 
 /** Images **/
 .bg-img {
     position: absolute;
+    z-index: -1;
 }
 .top {
     top: -32em;
@@ -25,4 +27,83 @@ body {
 .bottom {
     bottom: -39em;
     right: -14em;
+}
+
+/** Card general **/
+.card {
+    border-radius: 0.938em;
+    width: 21.969em;
+    background-color: #ffffff;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 90px 10px rgba(0,0,0,0.17);
+    -webkit-box-shadow: 0px 1px 90px 10px rgba(0,0,0,0.17);
+    -moz-box-shadow: 0px 1px 90px 10px rgba(0,0,0,0.17);
+}
+
+/** Card header **/
+.card_header {
+    background-image: url('../images/bg-pattern-card.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 8.813em;
+    border-radius: 0.938em 0.938em 0 0;
+}
+
+/** Card body **/
+.card_body {
+    position: relative;
+    padding-top: 4.25em;
+    padding-bottom: 1.25em;
+    border-bottom: 1px solid var(--gray-100);
+    text-align: center;
+}
+.card_picture img {
+    border-radius: 50%;
+    height: 6.563em;
+    width: 6.563em;
+    border: 5px solid #ffffff;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1 {
+    font-size: 1.125em;
+    color: var(--navy-950);
+    margin-bottom: 0.313em;
+    font-weight: 700;
+}
+.age, .city {
+    color: var(--gray-500);
+    font-weight: 400;
+}
+.age {
+    margin-left: 0.20em;
+}
+.city {
+    font-size: 0.875em;
+}
+
+/** Card footer **/
+.card_footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding : 1.563em 3.125em;
+}
+.number {
+    font-weight: 700;
+    font-size: 1.125em;
+    color: var(--navy-950);
+}
+.number_name {
+    font-weight: 400;
+    color: var(--gray-500);
+    font-size: 0.625em;
+    letter-spacing: 2px;
 }
