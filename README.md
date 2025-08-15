@@ -35,18 +35,16 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### What I learned
 
-I learned how to center the elements in the middle of the screen something that I never know to do.
-And I learned how to do pixel perfect, I hope so.
+Nothing in particular. 
 
 ### Continued development
 
-I would like to improve my css knowledge to avoid wasting time in research just to style simple things.
-
+I just want to improve my CSS skills.
 
 ### Useful resources
 
 - [Resource 1](https://www.joshwcomeau.com/css/custom-css-reset/) - I wanted to use a reset style different from the one I use to use.
-- [Resource 2](https://www.joshwcomeau.com/css/pixel-perfection/) - This is an amazing article which helped me finally to understand how to be pixel perfect.
+- [Resource 2](https://cssgenerator.org/box-shadow-css-generator.html) - Helps me to make de right box shadow.
 
 
 ## Author
